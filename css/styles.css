@@ -1,0 +1,30 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tarjeta {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.442);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tarjeta p {
+  padding: 15px;
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
